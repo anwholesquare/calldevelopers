@@ -11084,13 +11084,13 @@ strong.info {
     margin: 0px auto 0; }
   .contact-input,
   .contact-textarea {
-    margin-bottom: 12px; } }
+    margin-bottom: 12px; }
+  .mobile-hider { display: none;} }
 
 @media screen and (max-width: 480px) {
   .main-input {
     grid-template-columns: 1fr;
     grid-gap: 0px; }
   .contacts-12 .contact-input {
-    margin-top: 15px; } }
-
-/*# sourceMappingURL=style-starter.css.map */
+    margin-top: 15px; }
+  .mobile-hider { display: none;} }
